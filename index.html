@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitaCare App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="secindex.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- App Header -->
+    <div class="app-container">
+        <!-- Título VitaCare -->
+        <h1 class="title">VitaCare</h1>
+
+    <!-- App Content -->
+    <main class="app-content">
+        <!-- Login Section -->
+        <section id="loginSection" class="section active">
+            <div class="card">
+                <h2>Iniciar Sesión</h2>
+                <div class="form-group">
+                    <input type="email" id="emailInput" placeholder="Correo electrónico" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="passwordInput" placeholder="Contraseña" required>
+                </div>
+                <button id="loginButton" type="button" class="btn">Ingresar</button>
+                <div class="links">
+                    <p>¿No tienes cuenta? <a href="#" id="registerLink">Registrarse</a></p>
+                    <p><a href="#" id="forgotPasswordLink">¿Olvidaste tu contraseña?</a></p>
+                </div>
+            </div>
+        </section>
+        <div id="messageBox"></div>
+    </main>
+
+    <script src="sec.js"></script>
+</body>
+</html>
